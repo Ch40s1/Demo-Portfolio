@@ -1,5 +1,6 @@
 :root{
   --dark-blue: #525FFA;
+  --Gill-Font: ;
 }
 body {
   background-color: #45B2FA;
@@ -44,4 +45,32 @@ ul{
 a{
   color: #fff;
   text-decoration: none;
+}
+.My-story-section{
+  display: flex;
+  justify-content: space-around;
+}
+.container {
+  margin-left: 10px;
+  margin-right: 50px;
+}
+.Self-image > img{
+  height: 500px;
+  margin-right: 100px;
+  margin-top: 40px;
+  border: 10px ridge #39FAE0;
+}
+p{
+  color: #fff;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 45px;
+}
+h2{
+  font-size: 40px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #e5e0e0;
+  border-bottom: 2px solid #e5e0e0;
+}
+.orange-marker{
+  background-color: #FA8D5F;
 }
