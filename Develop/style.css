@@ -2,6 +2,9 @@
   --dark-blue: #525FFA;
   --Gill-Font: ;
 }
+html{
+  scroll-behavior: smooth;
+}
 body {
   background-color: #45B2FA;
 }
