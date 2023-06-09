@@ -52,7 +52,7 @@ a{
   text-decoration: none;
 }
 a:hover{
-  cursor: grab;
+  cursor: pointer;
 }
 /* end of Navigation container */
 
@@ -125,4 +125,15 @@ h2{
 .image-container .first-project{
   height: 500px;
   max-width: 700px;
+}
+.image-container img:hover{
+  opacity: 0.33;
+  cursor: pointer;
+}
+/* end of work section*/
+
+/*footer*/
+.footer-navigation{
+  display: flex;
+  justify-content: center;
 }
