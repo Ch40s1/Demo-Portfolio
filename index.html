@@ -12,83 +12,114 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-<div class='footer'>
-  <title>My Portfolio: Daniel Z</title>
+  <title>My Portfolio: by Daniel Z</title>
 </head>
 
-<header class="navigation">
+<header class="navigation-bar">
   <h1>Daniel Zarate</h1>
   <nav>
     <!-- I wanted to add a picture with my name on it. the picture will have a background color. the nave bar will 
     be on the right preferably on top of the image-->
     <ul>
-      <li><a href="#about-me">About Me</a></li>
+      <li><a href="#About-Me">About Me</a></li>
       <li class="orange-marker"><a href="#My-work">My Work</a></li>
       <li><a href="#Contact">Contact</a></li>
     </ul>
   </nav>
 </header>
 <body>
-  <!-- I want a set of images that display my work-->
+  <!-- if collapsed the body has 2 sections inside main-->
   <main>
+    <section id="About-Me">
+      <article class="introduction-container">
 
-    <section class="Biography-section">
-      <div class="about-me-container" id="about-me">
+        <!-- this div is solely for styling purposes. It maintains the heading in its own 
+        box so that the border on the bottom cuts off at the center. -->
         <div class="My-story">
           <h2>About Me </h2>
           <p>
             Growing up in east <em>Dallas</em> most of my life. I found a passion for computers at the age of 12.
             Everthing about the internet fascinated me. In school google was everything. Not because it was easy to look up answers,
-            but because I had the ability to look up everything in my hand. Being a avid gamer is what really got me going. <br>
+            but because I had the ability to look up everything in my hand. Being an avid gamer is what really got me going. <br>
             Spending time with my friends only 
             made my interest more fun. We used to stay up late to look up mods for games on the pc. In highschool I joined a game programmign course. Now I am in a <strong>SMU</strong> bootcamp still at it with more to come.
           </p>
         </div>
-        <div class="Self-image">
+
+        <figure class="Self-image">
+          <!-- the alts are displayed in the bottom to make it easier to read -->
           <img src="./Develop/images/IMG_3047.jpeg"
                alt="Picture of author next to white board">
-        </div>
-      </div>
+        </figure>
+
+      </article>
     </section>
 
     <section id="My-work">
       <!-- I will display my work here with some images ( screenshots ). They will be links when you 
-      click on them. Also they will be responsive and should take you to the place live url.-->
+      click on them. Also they will be responsive and should take you to the place live url.
+    Also this h2 is so that the border in the bottom stretches to the end-->
       <h2>My Work</h2>
-      <div class="image-container">
-            <a href="https://ch40s1.github.io/prework-study-guide/"
-             target="_blank"><img class="first-project" 
-             src="./Develop/images/First-project.png" 
-             alt="Website Image with mutiple cards"></a>
-        
-            <a href="https://ch40s1.github.io/Accessibility-standards/" 
-            target="_blank"><img 
-            src="./Develop/images/Horiseon.png"
-            alt="Webpage with showing a man working with others"></a>
-        
-            <a><img src="./Develop/images/404lol.png"></a>
-  
-            <a><img src="./Develop/images/404lol.png"></a>
+      <section class="image-container">
 
-            <a><img src="./Develop/images/404lol.png"></a>
-        </ul>
-      </div>
+        <!-- The images are in a div "box" this allows for enclosing a header to each image -->
+          <div class="individual-image-boxes">
+            <h3 class="work-description">Study Cards</h3>
+            <a href="https://ch40s1.github.io/prework-study-guide/"
+              target="_blank"><img class="first-project" 
+              src="./Develop/images/First-project.png" 
+              alt="Website Image with mutiple cards">
+            </a>
+          </div>
+
+          <div class="individual-image-boxes">
+            <h3 class="work-description">Horiseon Semantics</h3></h3>
+            <a href="https://ch40s1.github.io/Accessibility-standards/" 
+              target="_blank"><img 
+              src="./Develop/images/Horiseon.png"
+              alt="Webpage with showing a man working with others">
+            </a>
+          </div>
+
+          <!-- These images are links to my github. They are filler images for future projects 
+          this means that the titles are also coming soon-->
+          <div class="individual-image-boxes">
+            <h3 class="work-description">Coming Soon</h3>
+            <a href="https://github.com/Ch40s1"><img 
+              src="./Develop/images/404lol.png"
+              alt="Panda pointing at Error code 404">
+            </a>
+          </div>
+
+          <div class="individual-image-boxes">
+            <h3 class="work-description">Coming Soon</h3>
+            <a href="https://github.com/Ch40s1"><img 
+              src="./Develop/images/404lol.png"
+              alt="Panda pointing at Error code 404">
+            </a>
+          </div>
+
+          <div class="individual-image-boxes">
+            <h3 class="work-description">Coming Soon</h3>
+            <a href="https://github.com/Ch40s1"><img 
+              src="./Develop/images/404lol.png"
+              alt="Panda pointing at Error code 404"></a>
+          </div>      
+
+      </section>
     </section>
   </main>
 
 </body>
-<!-- i want the footer to have my conatct info. Preferably with a some links to my info.
-I also kinda want some background color that macthes the header.-->
-<footer>
+<!-- The footer has icons for each page. The github icon is the only one with a size due to how 
+  small it was.-->
+<footer id="Contact">
   
-  <section class="footer-navigation">
-    <h4 id="Contact">contact</h4>
-    <ul>
+    <h4>contact</h4>
+    <ul class="social-media-icons">
       <li><a href="https://github.com/Ch40s1"><i class="fab fa-github" style='font-size:40px'></i></a></li> 
       <li><a href="https://twitter.com/ch40s_1"><i class="fa fa-twitter"></i></a></li>
       <li><a href="https://www.linkedin.com/in/daniel-zarate-66816113b/"><i class="fa fa-linkedin"></i></a></li>
     </ul>
-  </section>
-  
 </footer>
 </html>
