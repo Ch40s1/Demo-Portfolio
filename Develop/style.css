@@ -20,7 +20,7 @@ body {
   font-family: 'Merriweather', serif;
   color: #fff;
   width: 100%;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;   
 }
 nav {
   display: flex;
