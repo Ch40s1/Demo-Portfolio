@@ -22,7 +22,8 @@ https://developer.mozilla.org/en-US/docs/Learn
 This website was used as reference. 
 
 ## Collaborators
-N/A
+Jude Clark - EdX Tutor. Sat June 10, 2023 (3:00pm Central time - U.S & Canada)
+-(CSS Grid ideas)
 
 ## License
 MIT license
