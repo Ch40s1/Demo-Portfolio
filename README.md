@@ -2,6 +2,7 @@
 I am Daniel Zarate and this is my portfolio made to showcase my work/progress as an upcomming programmer. 
 
 ## Link
+https://ch40s1.github.io/My-Portfolio/
 
 ## To view
 Click the link in the README to view.

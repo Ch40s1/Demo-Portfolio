@@ -64,6 +64,7 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   max-height: 80%;
+  padding-left: 20px;
 }
 .My-story {
   flex-basis: 100%;
@@ -74,6 +75,9 @@ p {
   font-family: var(--Gill-Font);
 }
 /* the h2 and h4 are the same style */
+h2{
+  padding-left: 20px;
+}
 h2,
 h4 {
   font-size: 40px;
