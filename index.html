@@ -4,136 +4,35 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./Develop/style.css">
-  <!-- the links are for the fonts and icons used -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-  <title>My Portfolio: by Daniel Z</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <title>My Portfolio</title>
 </head>
-
-<header class="navigation-bar">
-  <h1 class="full-name">Daniel Zarate</h1>
+<header>
   <nav>
-    <!-- The orange marker is the background color of the work link.-->
     <ul>
+      <li><a href="#Technical-Skills">Skills</a></li>
       <li><a href="#About-Me">About Me</a></li>
-      <li class="orange-marker"><a href="#My-work">My Work</a></li>
+      <li><a href="#My-work">My Work</a></li>
       <li><a href="#Contact">Contact</a></li>
     </ul>
   </nav>
 </header>
 <body>
-  <!-- if collapsed the body has 2 sections inside main-->
-  <main>
-    <section id="About-Me">
-      <article class="introduction-container">
+  <section id="#Technical-Skills" class="First">
+    <h1>Technical Skills</h1>
+    <!-- Content for the About Me section goes here -->
+  </section>
 
-        <!-- this div is solely for styling purposes. It maintains the heading in its own 
-        box so that the border on the bottom cuts off at the center. -->
-        <div class="My-story">
-          <h2>About Me </h2>
-          <p>
-            Growing up in east <em>Dallas</em> most of my life. I found a passion for computers at the age of 12.
-            Everything about the internet fascinated me. In school google was everything. Not because it was easy to look up answers,
-            but because I had the ability to look up everything in my hand. Being an avid gamer is what really got me going. <br>
-            Spending time with my friends only 
-            made my interest more fun. We used to stay up late to look up mods for games on the pc. In highschool I joined a game programmign course. 
-            Now I am in a <strong>SMU</strong> bootcamp still at it with more to come.
-          </p>
-        </div>
+  <section id="About-Me">
+    <h1>About Me</h1>
+    <img src="./css/skyline.png">
+    <!-- Content for the My Work section goes here -->
+  </section>
 
-        <figure class="Self-image">
-          <!-- the alts are in the bottom. this is the image to the right of the paragraph -->
-          <img src="./Develop/images/IMG_3047.jpeg"
-               alt="Picture of author next to white board">
-        </figure>
-
-      </article>
-    </section>
-
-    <section id="My-work">
-      <!-- I will display my work here with some images ( screenshots ). They will be links when you 
-      click on them. Also they will be responsive and should take you to the place live url.
-    Also this h2 is so that the border in the bottom stretches to the end-->
-      <h2>My Work</h2>
-      <section class="image-container">
-
-        <!-- The images are in a div "box" this allows for enclosing a header to each image -->
-          <div class="individual-image-boxes">
-            <h3 class="work-description">Study Cards</h3>
-            <a href="https://ch40s1.github.io/prework-study-guide/"
-              target="_blank"><img class="first-project" 
-              src="./Develop/images/First-project.png" 
-              alt="Website Image with mutiple cards">
-            </a>
-          </div>
-
-          <div class="individual-image-boxes">
-            <h3 class="work-description">Horiseon Semantics</h3></h3>
-            <a href="https://ch40s1.github.io/Accessibility-standards/" 
-              target="_blank"><img 
-              src="./Develop/images/Horiseon.png"
-              alt="Webpage with showing a man working with others">
-            </a>
-          </div>
-
-          <!-- These images are links to my github. They are filler images for future projects 
-          this means that the titles are also coming soon -->
-          <div class="individual-image-boxes">
-            <h3 class="work-description">Coming Soon</h3>
-            <a href="https://github.com/Ch40s1"
-              target="_blank"><img 
-              src="./Develop/images/404lol.png"
-              alt="Panda pointing at Error code 404">
-            </a>
-          </div>
-
-          <div class="individual-image-boxes">
-            <h3 class="work-description">Coming Soon</h3>
-            <a href="https://github.com/Ch40s1"
-              target="_blank"><img 
-              src="./Develop/images/404lol.png"
-              alt="Panda pointing at Error code 404">
-            </a>
-          </div>
-
-          <div class="individual-image-boxes">
-            <h3 class="work-description">Coming Soon</h3>
-            <a href="https://github.com/Ch40s1"
-              target="_blank"><img 
-              src="./Develop/images/404lol.png"
-              alt="Panda pointing at Error code 404"></a>
-          </div>      
-
-      </section>
-    </section>
-  </main>
-
+  <section id="My-work">
+    <h1>My Work</h1>
+    <!-- Content for the Contact section goes here -->
+  </section>
 </body>
-<!-- The footer has icons for each page. The github icon is the only one with a size due to how 
-  small it was.-->
-<footer id="Contact">
-  
-    <h4>contact</h4>
-    <ul class="social-media-icons">
-      <li><a href="https://github.com/Ch40s1" 
-          target="_blank"><i 
-          class="fab fa-github" 
-          style='font-size:40px'>
-          </i></a></li> 
-      <li><a href="https://twitter.com/ch40s_1" 
-          target="_blank"><i 
-          class="fa fa-twitter">
-          </i></a></li>
-      <li><a href="https://www.linkedin.com/in/daniel-zarate-66816113b/" 
-          target="_blank"><i 
-          class="fa fa-linkedin">
-          </i></a></li>
-    </ul>
-</footer>
+
 </html>
