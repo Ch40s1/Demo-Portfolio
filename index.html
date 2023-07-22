@@ -1,32 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
   <title>My Portfolio</title>
 </head>
 <header>
   <nav>
     <ul>
-      <li><a href="#Technical-Skills">Skills</a></li>
       <li><a href="#About-Me">About Me</a></li>
+      <!-- <li><a href="#Technical-Skills">Skills</a></li> -->
       <li><a href="#My-work">My Work</a></li>
       <li><a href="#Contact">Contact</a></li>
     </ul>
   </nav>
 </header>
+
 <body>
-  <section id="#Technical-Skills" class="First">
-    <h1>Technical Skills</h1>
-    <!-- Content for the About Me section goes here -->
+  <section id="intro">
+    <h2 class="nameText">Hi!<br> I am <span>D</span>aniel,<br> web developer</h2>
+    <button class="btn" style="background-color: #D1F10B;">RESUME</button>
+    <button class="btn" style="background-color: black; color: #fff;">GitHub</button>
   </section>
 
   <section id="About-Me">
-    <h1>About Me</h1>
-    <img src="./css/skyline.png">
-    <!-- Content for the My Work section goes here -->
+    <h2 class="divider">About Me</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus temporibus qui culpa iure enim earum, <br>
+      aliquid veniam voluptates obcaecati, minima amet, praesentium quasi similique repudiandae hic eius itaque maiores molestiae?</p>
+    <div id="skills">
+      <img src="./assets/svg/react-solid.svg" style="height: 100px;">
+      <img src="./assets/svg/js-solid.svg" style="height: 100px;">
+      <img src="./assets/svg/nodejs-solid.svg" style="height: 100px; color: blue;">
+    </div>
   </section>
 
   <section id="My-work">
