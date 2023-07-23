@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap" rel="stylesheet">
+  <script src='https://kit.fontawesome.com/9cca718ac3.js' crossorigin="anonymous"></script>
   <title>My Portfolio</title>
 </head>
 <header>
@@ -17,33 +18,71 @@
       <li><a href="#About-Me">About Me</a></li>
       <!-- <li><a href="#Technical-Skills">Skills</a></li> -->
       <li><a href="#My-work">My Work</a></li>
-      <li><a href="#Contact">Contact</a></li>
+      <!-- <li><a href="#Contact">Contact</a></li> -->
     </ul>
   </nav>
 </header>
 
 <body>
   <section id="intro">
-    <h2 class="nameText">Hi!<br> I am <span>D</span>aniel,<br> web developer</h2>
-    <button class="btn" style="background-color: #D1F10B;">RESUME</button>
-    <button class="btn" style="background-color: black; color: #fff;">GitHub</button>
+    <div>
+      <h2 class="nameText">Hi!<br> I am <span>D</span>aniel,<br> web developer</h2>
+      <button class="btn" style="background-color: #323946; color: #fff; border: 2px solid #0ef;">RESUME</button>
+      <button class="btn" style="background-color: #323946; color: #fff; border: 2px solid #0ef;">GitHub</button>
+    </div>
+    <image>
+      <img id="selfPicture" src="./assets/images/tempself.JPG">
+    </image>
   </section>
 
   <section id="About-Me">
     <h2 class="divider">About Me</h2>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus temporibus qui culpa iure enim earum, <br>
-      aliquid veniam voluptates obcaecati, minima amet, praesentium quasi similique repudiandae hic eius itaque maiores molestiae?</p>
+    <p>I'm Daniel Zarate, a web developer based in the US. I create beautiful and functional websites.</p>
     <div id="skills">
-      <img src="./assets/svg/react-solid.svg" style="height: 100px;">
-      <img src="./assets/svg/js-solid.svg" style="height: 100px;">
-      <img src="./assets/svg/nodejs-solid.svg" style="height: 100px; color: blue;">
+      <div class="foundations">
+        <img src="./assets/svg/js-solid.svg" style="height: 100px;">
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+      </div>
+      <div class="foundations">
+        <img src="./assets/svg/react-solid.svg" style="height: 100px;">
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+      </div>
+      <div class="foundations">
+        <img src="./assets/svg/nodejs-solid.svg" style="height: 100px; color: blue;">
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+      </div>
     </div>
   </section>
 
   <section id="My-work">
-    <h1>My Work</h1>
-    <!-- Content for the Contact section goes here -->
+    <h2 class="divider">Projects</h2>
+    <div class="project-container">
+      <div class="project">
+        <h3>Weather App</h3>
+        <img src="./assets/project-images/weatherapp.png">
+        <!-- link https://ch40s1.github.io/Weather-Application/ -->
+      </div>
+      <div class="project">
+        <h3>Front-end: Cocktailpedia</h3>
+        <img src="./assets/project-images/cocktail.png">
+        <!-- link https://ch40s1.github.io/Cocktail-pedia/ -->
+      </div>
+      <div class="project">
+        <h3>Coming Soon</h3>
+        <img src="./assets/images/404lol.png">
+      </div>
+      <div class="project">
+        <h3>Coming Soon</h3>
+        <img src="./assets/images/404lol.png">
+      </div>
+    </div>
   </section>
+<script src="./config.js"></script>
 </body>
+<footer>
+  <i class="fa-brands fa-twitter" style="color: #00eeff; font-size: 3rem;"></i>
+  <i class="fa-brands fa-linkedin" style="color: #00eeff;font-size: 3rem;"></i>
+  <i class="fa-brands fa-reddit" style="color: #00eeff;font-size: 3rem;"></i>
+</footer>
 
 </html>
